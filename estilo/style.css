@@ -64,8 +64,6 @@
         font-size: 3.5vw;
     }
 
-
-
     article div#normal{
         font-family: var(--fonte3);
         font-size: 1.6em;
@@ -79,6 +77,18 @@
         text-align: left;
         background-color: rgba(0, 0, 0, 0.87);
         color: white; 
+
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    div.img01{
+        background-image: url('../imagens/background001.jpg');
+        background-position: right center;
+    }
+
+    div.img02{
+        background-image: url('../imagens/background002.jpg');
     }
 
     div#imagem > p{
@@ -87,6 +97,8 @@
         border-radius: 4px;
         background-color: rgba(0, 0, 0, 0.24);
     }
+
+
     
     footer{
         background-color: black;
